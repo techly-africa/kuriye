@@ -1,3 +1,7 @@
+<p>Kuriye is a courier service web application designed to streamline package
+transportation through bus companies in Kigali, Rwanda. The app simplifies the process
+by allowing bus companies to register packages, capture sender and receiver
+information, generate bills, and facilitate efficient delivery.</p>
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
