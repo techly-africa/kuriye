@@ -5,6 +5,7 @@ information, generate bills, and facilitate efficient delivery.</p>
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
+[![Coverage Status](https://coveralls.io/repos/github/techly-africa/kuriye/badge.svg?branch=main)](https://coveralls.io/github/techly-africa/kuriye?branch=main)
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
@@ -75,4 +76,5 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
 # kuriye
