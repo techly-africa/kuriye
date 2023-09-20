@@ -1,25 +1,32 @@
 version: 2.1
 orbs:
-  node: circleci/node@5.1.0
-  coveralls: coveralls/coveralls@2.2.1
+  node: circleci/node@5.0.2
+  coveralls: coveralls/coveralls@2.0.0
 
 jobs:
-  build-and-test:
+  Test_and_Send_Coverage:
+    environment:
+      CC_TEST_REPOTER_ID: 'bedee4e908dba8315de6d44f242f0a4ee0e66450'
+
     docker:
-      - image: cimg/node:16.10
+      - image: node:18.15
+
     steps:
       - checkout
       - node/install-packages:
           pkg-manager: npm
       - run:
+          command: npm install
+          name: Install Dependencies
+      - run:
+          command: npm run test
           name: Run tests
-          command: npm test
+      - run:
+          name: code-coverage
+          command: npm run coverage
       - coveralls/upload
 
 workflows:
-  test-and-coverage:
+  Test_and_Coverage:
     jobs:
-      - build-and-test
-  sample:
-    jobs:
-      - build-and-test
+      - Test_and_Send_Coverage
