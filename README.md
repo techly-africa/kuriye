@@ -5,7 +5,8 @@ information, generate bills, and facilitate efficient delivery.</p>
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
-[![Coverage Status](https://coveralls.io/repos/github/techly-africa/kuriye/badge.svg?branch=main)](https://coveralls.io/github/techly-africa/kuriye?branch=main)
+<a href="https://codeclimate.com/github/techly-africa/kuriye/maintainability"><img src="https://api.codeclimate.com/v1/badges/b1f71636010e8c5505b4/maintainability" /></a>
+<a href='https://coveralls.io/github/techly-africa/kuriye?branch=fx-code-climate'><img src='https://coveralls.io/repos/github/techly-africa/kuriye/badge.svg?branch=fx-code-climate' alt='Coverage Status' /></a>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
